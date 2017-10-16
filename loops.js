@@ -23,8 +23,8 @@ function maybeTrue() {
 }
 
 function doWhileLoop(array) {
-  var theArray = [...array]
   do {
-    theArray = theArray.slice(-1)
-  } while (theArray.length > 0 && maybeTrue())
+    array = array.slice(-1)
+    console.log(array)
+  } while (array.length > 0 && maybeTrue())
 }
