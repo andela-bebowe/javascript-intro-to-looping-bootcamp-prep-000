@@ -9,3 +9,7 @@ function forLoop(array) {
   }
   return theArray
 }
+
+function whileLoop() {
+
+}
